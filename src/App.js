@@ -4,15 +4,16 @@ import Homepage from './components/Homepage';
 const App = () => {
   return (
     <div className="App">
+      {/* nav-bar */}
       <div className="nav">
         <img src="" alt="" />
-
       </div>
       <Homepage />
       {/* footer */}
 
-      <div>
-        <div>
+      <div className="footer">
+
+        <div className="links">
           <ul>
             <li><a href="">COURSES</a></li>
             <li><a href="">BLOGS</a></li>
@@ -31,10 +32,10 @@ const App = () => {
           </div>
 
           <a href="mailto:contact@upliftcodecamp.com">contact@upliftcodecamp.com</a>
-
         </div>
 
         <p>&copy; 2021 Uplift Code Camp</p>
+
       </div>
     </div>
   );
