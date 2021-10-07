@@ -1,5 +1,6 @@
 import './App.css';
 import Homepage from './components/Homepage';
+import Contact from './components/Contact';
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
         <img src="" alt="" />
       </div>
       <Homepage />
+      <Contact />
       {/* footer */}
 
       <div className="footer">
